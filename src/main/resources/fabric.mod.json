@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mobcapped",
+  "version": "${version}",
+  "name": "MobCapped",
+  "description": "modifiable mob caps",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mobcapped/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.mobcapped.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "mobcapped.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.0",
+    "fabric": ">=0.15"
+  }
+}

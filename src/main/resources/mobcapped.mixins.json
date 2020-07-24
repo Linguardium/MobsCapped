@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "mod.linguardium.mobcapped.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BooleanGameRuleAccessor",
+    "IntegerGameRuleAccessor",
+    "RegisterGameRule",
+    "SpawnHelperInfoMixin",
+    "SpawnHelperMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

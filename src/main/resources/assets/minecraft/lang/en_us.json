@@ -1,0 +1,8 @@
+{
+  "gamerule.mobCapAmbient": "Ambient Mob Cap",
+  "gamerule.mobCapAquaticAmbient": "Ambient Water Mob Cap",
+  "gamerule.mobCapAquaticCreature": "Water Creature Mob Cap",
+  "gamerule.mobCapCreatures": "Creature Mob Cap",
+  "gamerule.mobCapMonsters": "Monster Mob Cap",
+  "gamerule.mobCapPerPlayer": "Per Player Mob Cap"
+}
