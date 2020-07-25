@@ -12,7 +12,7 @@ import static mod.linguardium.mobcapped.NewGameRules.*;
 @Mixin(GameRules.class)
 public class RegisterGameRule{
 
-    @Invoker("register")
+ /*   @Invoker("register")
     public static <T extends GameRules.Rule<T>> GameRules.Key<T> MobCapped$create(String key, GameRules.Category category, GameRules.Type<T> type) {
         throw new NotImplementedException("GameRules mixin failed");
     }
@@ -25,5 +25,5 @@ public class RegisterGameRule{
 
         MobCapped$create(PER_PLAYER_MOBCAP, GameRules.Category.MOBS, BooleanGameRuleAccessor.MobCapped$create(false));
 
-   }
+   }*/
 }

@@ -8,10 +8,10 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(GameRules.BooleanRule.class)
 public interface BooleanGameRuleAccessor {
-
+/*
     @Invoker("create")
     public static GameRules.Type<GameRules.BooleanRule> MobCapped$create(boolean defaultValue) {
         throw new NotImplementedException("Mixin failed");
      }
-
+*/
 }

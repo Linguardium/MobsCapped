@@ -9,10 +9,10 @@ import net.minecraft.world.GameRules;
 
 @Mixin(GameRules.IntRule.class)
 public interface IntegerGameRuleAccessor {
-
+/*
     @Invoker("create")
     public static GameRules.Type<GameRules.IntRule> MobCapped$create(int defaultValue) {
         throw new NotImplementedException("Mixin failed");
      }
-
+*/
 }

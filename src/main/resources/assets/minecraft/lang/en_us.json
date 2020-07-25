@@ -4,5 +4,6 @@
   "gamerule.mobCapAquaticCreature": "Water Creature Mob Cap",
   "gamerule.mobCapCreatures": "Creature Mob Cap",
   "gamerule.mobCapMonsters": "Monster Mob Cap",
-  "gamerule.mobCapPerPlayer": "Per Player Mob Cap"
+  "gamerule.mobCapPerPlayer": "Per Player Mob Cap",
+  "gamerule.mobcapped.rule_category": "Mob Capped Rules"
 }

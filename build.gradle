@@ -20,8 +20,14 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	//fabricApi.module("${project.fabric_version}", "fabric-game-rule-api-v1")
+	//fabricApi.module("${project.fabric_version}", "fabric-resource-loader-v0")
 
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-game-rule-api-v1:${project.gamerule_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.resources_version}"
+	include "net.fabricmc.fabric-api:fabric-game-rule-api-v1:${project.gamerule_version}"
+	include "net.fabricmc.fabric-api:fabric-resource-loader-v0:${project.resources_version}"
+	//modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	//modRuntime "com.github.Linguardium:open2lan:+"
 }
 
